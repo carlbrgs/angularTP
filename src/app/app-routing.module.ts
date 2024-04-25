@@ -4,8 +4,8 @@ import { AccueilComponent } from './pages/accueil/accueil.component';
 import { ConnexionComponent } from './pages/connexion/connexion.component';
 
 const routes: Routes = [
-  { path: '/', component: AccueilComponent },
-  { path: '/connexion', component: ConnexionComponent }
+  { path: '', component: ConnexionComponent },
+  { path: 'connexion', component: AccueilComponent }
 ];
 
 @NgModule({
