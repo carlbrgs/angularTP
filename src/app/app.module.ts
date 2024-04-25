@@ -7,12 +7,18 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AccueilComponent } from './pages/accueil/accueil.component';
+import { ConnexionComponent } from './pages/connexion/connexion.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AccueilComponent,
+    ConnexionComponent
   ],
   imports: [
     BrowserModule,
@@ -22,5 +28,7 @@ import { FooterComponent } from './footer/footer.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
+
+  
 })
 export class AppModule { }
